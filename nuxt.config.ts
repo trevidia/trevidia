@@ -1,4 +1,5 @@
 import {defineNuxtConfig} from 'nuxt/config'
+import tailwindcss from "@tailwindcss/vite"
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   runtimeConfig: {
@@ -8,6 +9,12 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
+  vite: {
+    plugins: [
+        tailwindcss()
+    ]
+  },
   pages: true,
   content: {
     watch: {
@@ -17,8 +24,11 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Consulting & Web Development Company - "
-    }
+      title: "Consulting & Web Development Company - Trevidia",
+      htmlAttrs: {
+        lang: 'en',
+      },
+    },
   },
   modules: [
     '@nuxt/content',

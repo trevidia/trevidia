@@ -4,7 +4,7 @@
 
 <template>
 <div>
-  <h1>Trevidia Consulting</h1>
+  <h1 class="font-bold">Trevidia Consulting</h1>
   <div>Hii welcome to trevidia</div>
 </div>
 </template>

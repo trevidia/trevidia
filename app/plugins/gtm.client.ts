@@ -17,9 +17,11 @@ export default defineNuxtPlugin({
         return {
             provide: {
                 gtag: (data) => {
-                    const dataLayer = 'dataLayer';
-                    window[dataLayer] = window[dataLayer]
-                    window[dataLayer].push(data)
+                    if (!import.meta.dev){
+                        const dataLayer = 'dataLayer';
+                        window[dataLayer] = window[dataLayer]
+                        window[dataLayer].push(data)
+                    }
                 }
             }
         }
