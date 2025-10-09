@@ -4,7 +4,7 @@ const isProd = !import.meta.dev
 </script>
 
 <template>
-  <Body>
+  <Body class="has-[.no-doc-scroll]:overflow-y-hidden md:has-[.no-doc-scroll]:overflow-y-auto">
   <noscript v-if="isProd">
     <iframe
         src="https://www.googletagmanager.com/ns.html?id=${config.public.gtmId}"
