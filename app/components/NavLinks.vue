@@ -10,7 +10,7 @@ const {links, listClass, ctaClass} = defineProps<{
 </script>
 <template>
   <ul :class="listClass">
-    <li v-for="link in links" :key="link.label">
+    <li v-for="link in links" :key="link.label" class="has-[.router-link-active]:text-christine">
       <NuxtLink :to="link.path">
         {{link.label}}
       </NuxtLink>

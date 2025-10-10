@@ -3,7 +3,7 @@ import NavLinks from "./NavLinks.vue";
 
 const links = [
   {
-    path: '/#',
+    path: '/#service',
     label: "Services"
   },
   {
