@@ -39,7 +39,7 @@ const services = [
 </script>
 
 <template>
-<section id="service" class="py-16 px-4 md:px-10 lg:px-16">
+<section id="service" class="section">
   <div class="max-w-[747px] mx-auto text-center mb-13">
     <h2 class="font-bold text-[36px] leading-[119%] tracking-[0%] mb-2">Our Core Services</h2>
     <p class="text-[20px] font-medium text-[#444444] leading-[148%] tracking-[0%]">Our work focuses on solving real problems with clean, reliable, and scalable solutions.</p>

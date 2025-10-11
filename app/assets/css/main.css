@@ -11,3 +11,7 @@
 body {
     font-family: 'Manrope', serif;
 }
+
+.section {
+    @apply py-16 px-4 md:px-10 lg:px-16;
+}
