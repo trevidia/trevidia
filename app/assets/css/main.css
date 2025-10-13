@@ -15,3 +15,8 @@ body {
 .section {
     @apply py-16 px-4 md:px-10 lg:px-16;
 }
+
+.social-link-label {
+    clip-path: inset(50%);
+    @apply -m-1 size-1 absolute p-0 overflow-hidden border-0 whitespace-nowrap;
+}

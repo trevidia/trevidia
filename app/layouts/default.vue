@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import NavBar from "../components/NavBar.vue";
+import Footer from "../components/Footer.vue";
 const isProd = !import.meta.dev
 </script>
 
@@ -12,8 +13,9 @@ const isProd = !import.meta.dev
         style="display:none;visibility:hidden"></iframe>
   </noscript>
   <NavBar/>
-  <main>
+  <main class="min-h-screen">
     <slot/>
   </main>
+  <Footer/>
   </Body>
 </template>

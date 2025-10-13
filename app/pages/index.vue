@@ -3,6 +3,7 @@
 import HeroSection from "../components/HeroSection.vue";
 import ServiceSection from "../components/ServiceSection.vue";
 import ProcessSection from "../components/ProcessSection.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
