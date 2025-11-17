@@ -48,7 +48,7 @@ useSeoMeta({
             Our journey began when we recognized the gap between complex
             technical solutions and practical business needs. We set out to
             bridge that gap by combining deep technical expertise with clear
-            communication and strategic thinking.a
+            communication and strategic thinking.a boy test
           </p>
         </div>
 
