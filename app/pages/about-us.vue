@@ -164,6 +164,133 @@ useSeoMeta({
         </div>
       </div>
     </section>
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto px-6">
+        <!-- Header -->
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-semibold text-[#111827]">
+            Meet Our Team
+          </h2>
+          <p class="mt-4 max-w-2xl mx-auto text-[#4B5563]">
+            Our diverse team of experts brings together years of experience in development,
+            design, and strategic consulting.
+          </p>
+        </div>
+
+        <!-- Team Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-20">
+          <!-- Team Member 1 -->
+          <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
+            <h3 class="text-lg font-semibold text-[#111827]">Uchenna Nwaorgu</h3>
+            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
+            <p class="text-xs text-[#6B7280] mb-4">
+              Full-stack developer with 8+ years experience in enterprise solutions.
+            </p>
+            <div class="flex justify-center gap-3">
+              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
+            <h3 class="text-lg font-semibold text-[#111827]">Ajisafe Jeremiah</h3>
+            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
+            <p class="text-xs text-[#6B7280] mb-4">
+              Full-stack developer with 8+ years experience in enterprise solutions.
+            </p>
+            <div class="flex justify-center gap-3">
+              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
+            <h3 class="text-lg font-semibold text-[#111827]">Uchenna Nwaorgu</h3>
+            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
+            <p class="text-xs text-[#6B7280] mb-4">
+              Full-stack developer with 8+ years experience in enterprise solutions.
+            </p>
+            <div class="flex justify-center gap-3">
+              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Team Member 4 -->
+          <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
+            <h3 class="text-lg font-semibold text-[#111827]">Uchenna Nwaorgu</h3>
+            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
+            <p class="text-xs text-[#6B7280] mb-4">
+              Full-stack developer with 8+ years experience in enterprise solutions.
+            </p>
+            <div class="flex justify-center gap-3">
+              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Team Member 5 -->
+          <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
+            <h3 class="text-lg font-semibold text-[#111827]">Uchenna Nwaorgu</h3>
+            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
+            <p class="text-xs text-[#6B7280] mb-4">
+              Full-stack developer with 8+ years experience in enterprise solutions.
+            </p>
+            <div class="flex justify-center gap-3">
+              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
