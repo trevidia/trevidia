@@ -1,28 +1,45 @@
 <template>
-  <section class="h-[599px] bg-[#FFF9F1] px-4 md:px-10 lg:px-16 py-12">
-    <div class="max-w-[566px] mx-auto text-center">
-      <h1 class="font-bold text-[32px] lg:text-[48px] leading-[119%] tracking-[0%] mb-6">Strategic Tech Consulting. <span class="text-[#FFC162]">From Concept to Solution.</span></h1>
-      <p class="text-[#444444] lg:text-lg leading-[32px] tracking-[0%] mb-6">We provide strategic consulting and custom development solution that drive growth, optimize operation, and accelerate digital transformation for business of all sizes.</p>
-      <div class="flex gap-x-4 gap-y-4 flex-col md:flex-row text-base items-center justify-center mb-16">
-        <button class="py-4 px-8 rounded-lg bg-primary hover:shadow-md transition-all shadow-primary/50 text-white cursor-pointer">
+  <section class="bg-[#FFF9F1] px-4 md:px-10 lg:px-16 py-20">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1
+        class="font-bold text-3xl md:text-4xl lg:text-5xl leading-tight tracking-tight mb-6"
+      >
+        Strategic Tech Consulting.
+        <span class="text-[#FFC162]">From Concept to Solution.</span>
+      </h1>
+
+      <p class="text-[#444444] text-base md:text-lg leading-relaxed mb-10">
+        We provide strategic consulting and custom development solutions that
+        drive growth, optimize operations, and accelerate digital transformation
+        for businesses of all sizes.
+      </p>
+
+      <div class="flex flex-col md:flex-row items-center justify-center gap-4 mb-14">
+        <button
+          class="py-4 px-8 rounded-lg bg-primary text-white font-medium shadow-primary/40 hover:shadow-lg hover:scale-[1.02] transition-all focus:outline-none focus:ring-2 focus:ring-primary/50"
+        >
           Schedule Consultation
         </button>
-        <button class="py-4 px-8 rounded-lg border border-[#FFC162] text-[#FFC162] shadow-[#FFC162] cursor-pointer hover:shadow-md transition-all">
-          View Our work
+
+        <button
+          class="py-4 px-8 rounded-lg border border-[#FFC162] text-[#FFC162] font-medium hover:bg-[#FFF3DF] hover:shadow-md hover:scale-[1.02] transition-all focus:outline-none focus:ring-2 focus:ring-[#FFC162]/50"
+        >
+          View Our Work
         </button>
       </div>
-      <div class="grid grid-cols-3">
-        <div class="flex flex-col items-center">
-          <div class="font-semibold text-sm">30+</div>
-          <span class="text-xs mt-1.5">Project Completed</span>
+
+      <div class="grid grid-cols-3 gap-4 text-center">
+        <div>
+          <div class="font-semibold text-lg md:text-xl">30+</div>
+          <span class="text-xs md:text-sm mt-1 block text-[#444444]">Projects Completed</span>
         </div>
-        <div class="flex flex-col items-center">
-          <div class="font-semibold text-sm">92%</div>
-          <span class="text-xs mt-1.5">Client Satisfaction</span>
+        <div>
+          <div class="font-semibold text-lg md:text-xl">92%</div>
+          <span class="text-xs md:text-sm mt-1 block text-[#444444]">Client Satisfaction</span>
         </div>
-        <div class="flex flex-col items-center">
-          <div class="font-semibold text-sm">24/7</div>
-          <span class="text-xs mt-1.5">Support Available</span>
+        <div>
+          <div class="font-semibold text-lg md:text-xl">24/7</div>
+          <span class="text-xs md:text-sm mt-1 block text-[#444444]">Support Available</span>
         </div>
       </div>
     </div>
