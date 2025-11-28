@@ -17,12 +17,14 @@ const activeFilter = ref('all');
 const projects = [
   {
     id: 1,
-    title: 'Financial Analytics Platform',
-    description: 'A comprehensive analytics dashboard for real-time financial data visualization and reporting for enterprise clients.',
+    title: 'Smart Invoice Creation Tool',
+    description: 'Trevidia invoice generator generates clean, branded invoices instantly with customizable templates and automated calculations.',
     category: 'web',
     image: trevidiaImg,
     badgeColor: 'bg-blue-100 text-blue-600',
-    categoryLabel: 'Web Development'
+    categoryLabel: 'Web Development',
+    link: 'https://trevidia.com',
+    rel: 'noopener'
   },
   {
     id: 2,
@@ -35,8 +37,8 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Sustainable Fashion Marketplace',
-    description: 'An eco-friendly e-commerce platform with integrated payment processing, inventory management, and customer analytics.',
+    title: 'Tax & Compliance Document Platform',
+    description: 'Phcworkhub is a streamlined platform for generating tax forms, receipts, paystubs, and other financial documents making tax preparation and compliance easy for individuals, contractors, and small businesses.',
     category: 'ecommerce',
     image: macbook13Img,
     badgeColor: 'bg-green-100 text-green-600',
@@ -200,7 +202,7 @@ const setFilter = (filter: string) => {
                 {{ project.description }}
               </p>
               
-              <a href="#" class="inline-flex items-center text-[#F7B94A] font-medium hover:text-[#e5a739] transition-colors">
+              <a v-if="project.link" :href='project.link' target="_blank" :rel="project.rel"  class="inline-flex items-center text-[#F7B94A] font-medium hover:text-[#e5a739] transition-colors">
                 View Project
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14M12 5l7 7-7 7"/>
