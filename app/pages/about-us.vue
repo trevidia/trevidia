@@ -1,298 +1,133 @@
-<script setup lang="ts">
-import { useSeoMeta } from "nuxt/app";
-
-useSeoMeta({
-  title: "About Trevidia"
-});
-</script>
-
 <template>
-  <div>
-    <section class="min-h-[80vh] flex flex-col items-center justify-center text-center px-4 py-20 bg-[#FFF9F1]">
-      <h1 class="text-4xl md:text-5xl font-semibold text-[#1A1A1A]">
-        About Trevidia
-      </h1>
+  <div class="bg-white min-h-screen">
+    <section class="py-24 bg-[#1a1a1a] text-white px-4 relative overflow-hidden">
+      <div class="max-w-5xl mx-auto relative text-center">
+        <span class="text-[#FFC162] uppercase tracking-widest text-xs font-bold mb-4 block">The Trevidia Story</span>
+        <h1 class="text-4xl md:text-7xl font-bold mb-8 leading-tight">
+          Where Engineering Logic Meets <span class="text-[#FFC162]">Business Intuition.</span>
+        </h1>
+        <p class="text-xl text-gray-400 leading-relaxed max-w-3xl mx-auto">
+          Trevidia was founded on a simple realization: the UK tech landscape is full of advisors who don't build, and builders who don't understand business. We bridged that gap.
+        </p>
+      </div>
+      <div class="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+    </section>
 
-      <p class="mt-6 max-w-3xl text-lg text-[#333333] leading-relaxed">
-        We're a team of passionate developers and consultants dedicated to
-        transforming your digital vision into reality through innovative
-        solutions and expert guidance.
-      </p>
-
-      <div class="mt-10">
-        <img
-          src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&q=80&auto=format&fit=crop&w=800"
-          alt="Trevidia team"
-          class="w-40 h-40 rounded-full object-cover"
-        />
+    <section class="py-24 px-4 max-w-7xl mx-auto">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 class="text-3xl font-bold mb-6 text-[#1a1a1a]">Born from a Product, Not a Pitch Deck.</h2>
+          <div class="space-y-6 text-gray-600 leading-relaxed">
+            <p>
+              Unlike most consulting firms, Trevidia didn’t start in a boardroom. It started in a development environment. Our journey began with the creation of <strong>Trevidia.com</strong>, a global invoicing and billing platform designed to solve the friction of modern business finance.
+            </p>
+            <p>
+              By building, launching, and scaling our own SaaS product, our founders—<strong>Uchenna Nwaorgu</strong> and <strong>Jeremiah</strong>—gained insights that traditional consultancies simply cannot offer. We faced the same security audits, the same API bottlenecks, and the same user-retention challenges that you face.
+            </p>
+            <p>
+              When we saw how much value our "Product-First" mindset brought to the industry, we launched <strong>Trevidia.co.uk</strong>. Today, we take those battle-tested frameworks and apply them to UK enterprises, transforming legacy operations into high-velocity digital assets.
+            </p>
+          </div>
+        </div>
+        <div class="bg-[#FFF9F1] p-10 rounded-[40px] border border-[#FFC162]/20">
+          <h3 class="text-2xl font-bold mb-4">"The Builder's Credential"</h3>
+          <p class="italic text-gray-700 mb-6">
+            "We believe that a consultant who hasn't shipped their own product is like a navigator who has never been to sea. We lead with code, not just PowerPoints."
+          </p>
+          <div class="flex items-center gap-4">
+            <div class="h-1 w-12 bg-[#FFC162]"></div>
+            <span class="font-bold text-sm uppercase tracking-widest">Uchenna Nwaorgu, CEO</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="px-6 md:px-12 lg:px-20 py-24">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <!-- Left text -->
-        <div>
-          <h2 class="text-4xl md:text-5xl font-semibold text-[#1A1A1A]">
-            Our Story
-          </h2>
-
-          <p class="mt-6 text-lg text-[#333333] leading-relaxed">
-            Founded in 2025, Trevidia emerged from a simple belief: every
-            business deserves access to world-class development and
-            consultation services. What started as a small team of five
-            developers has grown into a comprehensive consultancy serving
-            clients across the globe.
-          </p>
-
-          <p class="mt-4 text-lg text-[#333333] leading-relaxed">
-            Our journey began when we recognized the gap between complex
-            technical solutions and practical business needs. We set out to
-            bridge that gap by combining deep technical expertise with clear
-            communication and strategic thinking.a boy test
-          </p>
-        </div>
-
-        <!-- Right image -->
-        <div>
-          <img
-            src="~/assets/img/window.png"
-            alt="Business skyline"
-            class="rounded-xl w-full object-cover"
-          />
-        </div>
-      </div>
-
-      <!-- Stats -->
-      <div class="grid grid-cols-3 gap-6 mt-16 text-center">
-        <div>
-          <p class="text-xl font-semibold">500+</p>
-          <p class="text-sm text-[#555]">Projects Completed</p>
-        </div>
-
-        <div>
-          <p class="text-xl font-semibold">98%</p>
-          <p class="text-sm text-[#555]">Client Satisfaction</p>
-        </div>
-
-        <div>
-          <p class="text-xl font-semibold">24/7</p>
-          <p class="text-sm text-[#555]">Support Available</p>
-        </div>
-      </div>
-    </section>
-    <section class="bg-[#FFF9F1] py-20">
-      <div class="max-w-6xl mx-auto px-6">
-        <!-- Header -->
-        <div class="text-center mb-12">
-          <h2 class="text-3xl md:text-4xl font-semibold text-[#111827]">
-            Our Mission &amp; Values
-          </h2>
-          <p class="mt-4 max-w-2xl mx-auto text-[#4B5563]">
-            We're driven by core values that shape every project we undertake and every
-            relationship we build.
-          </p>
-        </div>
-
-        <!-- Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <!-- Card 1 -->
-          <article class="bg-white rounded-2xl p-8 shadow-sm">
-            <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 bg-[#F7B94A] rounded-md p-3">
-                <!-- lightbulb icon (innovation) -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M9 18h6" />
-                  <path d="M10 22h4" />
-                  <path d="M12 2a6 6 0 0 0-3 11.197V15a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1.803A6 6 0 0 0 12 2z" />
-                </svg>
-              </div>
-
-              <div>
-                <h3 class="text-xl font-semibold text-[#111827]">Innovation</h3>
-                <p class="mt-3 text-sm text-[#6B7280] leading-relaxed">
-                  We stay at the forefront of technology, constantly exploring new
-                  solutions and methodologies to deliver cutting-edge results for our clients.
-                </p>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 2 -->
-          <article class="bg-white rounded-2xl p-8 shadow-sm">
-            <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 bg-[#F7B94A] rounded-md p-3">
-                <!-- badge/quality icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M12 2l2.09 4.24L18.5 7l-3.25 2.86L15.18 14 12 11.8 8.82 14l-.07-4.14L5.5 7 9.91 6.24 12 2z"/>
-                  <path d="M12 22v-6" />
-                </svg>
-              </div>
-
-              <div>
-                <h3 class="text-xl font-semibold text-[#111827]">Quality</h3>
-                <p class="mt-3 text-sm text-[#6B7280] leading-relaxed">
-                  Every line of code, every design decision, and every strategic recommendation
-                  is crafted with meticulous attention to detail and excellence.
-                </p>
-              </div>
-            </div>
-          </article>
-
-          <!-- Card 3 -->
-          <article class="bg-white rounded-2xl p-8 shadow-sm">
-            <div class="flex items-start gap-4">
-              <div class="flex-shrink-0 bg-[#F7B94A] rounded-md p-3">
-                <!-- collaboration/team icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M17 21v-2a4 4 0 0 0-3-3.87" />
-                  <path d="M9 21v-2a4 4 0 0 1 3-3.87" />
-                  <path d="M12 7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                  <path d="M5 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                  <path d="M19 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                </svg>
-              </div>
-
-              <div>
-                <h3 class="text-xl font-semibold text-[#111827]">Collaboration</h3>
-                <p class="mt-3 text-sm text-[#6B7280] leading-relaxed">
-                  We believe in true partnership with our clients, working together to understand
-                  challenges and create solutions that drive real business value.
-                </p>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-    <section class="py-20">
-      <div class="max-w-6xl mx-auto px-6">
-        <!-- Header -->
+    <section class="py-24 bg-gray-50 px-4">
+      <div class="max-w-7xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-semibold text-[#111827]">
-            Meet Our Team
-          </h2>
-          <p class="mt-4 max-w-2xl mx-auto text-[#4B5563]">
-            Our diverse team of experts brings together years of experience in development,
-            design, and strategic consulting.
-          </p>
+          <h2 class="text-4xl font-bold mb-4">The Trevidia Standard</h2>
+          <p class="text-gray-500">How we maintain excellence across every consulting engagement.</p>
         </div>
-
-        <!-- Team Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-20">
-          <!-- Team Member 1 -->
-          <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
-            <h3 class="text-lg font-semibold text-[#111827]">Uchenna Nwaorgu</h3>
-            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
-            <p class="text-xs text-[#6B7280] mb-4">
-              Full-stack developer with 8+ years experience in enterprise solutions.
-            </p>
-            <div class="flex justify-center gap-3">
-              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-              </a>
-              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div v-for="pillar in pillars" :key="pillar.title" class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
+            <div class="size-12 bg-[#FFF9F1] rounded-xl flex items-center justify-center mb-6 text-[#FFC162]" v-html="pillar.icon">
             </div>
+            <h4 class="font-bold text-xl mb-4 text-[#1a1a1a]">{{ pillar.title }}</h4>
+            <p class="text-sm text-gray-600 leading-loose">{{ pillar.desc }}</p>
           </div>
+        </div>
+      </div>
+    </section>
 
-          <!-- Team Member 2 -->
-          <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
-            <h3 class="text-lg font-semibold text-[#111827]">Ajisafe Jeremiah</h3>
-            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
-            <p class="text-xs text-[#6B7280] mb-4">
-              Full-stack developer with 8+ years experience in enterprise solutions.
+    <section class="py-24 px-4 max-w-7xl mx-auto">
+      <div class="bg-[#1a1a1a] rounded-[3rem] p-8 md:p-20 text-white relative overflow-hidden">
+        <div class="grid lg:grid-cols-2 gap-12 relative">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-[#FFC162]">Why Design is Our Second Language.</h2>
+            <p class="text-gray-400 mb-6 leading-relaxed">
+              Engineering logic provides the structure, but design provides the soul. Under the leadership of <strong>Denis Emokhare</strong> and <strong>Okulaja Adetomiwa</strong>, our design studio operates as a core part of our consulting DNA.
             </p>
-            <div class="flex justify-center gap-3">
-              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-              </a>
-              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
-            </div>
+            <p class="text-gray-400 leading-relaxed">
+              We don't "skin" software after it's built. We use <strong>George Okochar's</strong> precision and Denis's product strategy to map user journeys before a single line of code is written. This ensures that the technical systems Uchenna and Jeremiah build are actually used and loved by your customers.
+            </p>
           </div>
-
-          <!-- Team Member 3 -->
-          <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
-            <h3 class="text-lg font-semibold text-[#111827]">Uchenna Nwaorgu</h3>
-            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
-            <p class="text-xs text-[#6B7280] mb-4">
-              Full-stack developer with 8+ years experience in enterprise solutions.
-            </p>
-            <div class="flex justify-center gap-3">
-              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-              </a>
-              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Team Member 4 -->
-          <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
-            <h3 class="text-lg font-semibold text-[#111827]">Uchenna Nwaorgu</h3>
-            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
-            <p class="text-xs text-[#6B7280] mb-4">
-              Full-stack developer with 8+ years experience in enterprise solutions.
-            </p>
-            <div class="flex justify-center gap-3">
-              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-              </a>
-              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Team Member 5 -->
-          <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-4 bg-gray-300 rounded-full"></div>
-            <h3 class="text-lg font-semibold text-[#111827]">Uchenna Nwaorgu</h3>
-            <p class="text-sm text-[#F7B94A] font-medium mb-2">CEO & Lead Developer</p>
-            <p class="text-xs text-[#6B7280] mb-4">
-              Full-stack developer with 8+ years experience in enterprise solutions.
-            </p>
-            <div class="flex justify-center gap-3">
-              <a href="#" class="text-[#0A66C2] hover:text-[#004182]" aria-label="LinkedIn">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-              </a>
-              <a href="#" class="text-[#000000] hover:text-[#333333]" aria-label="X (Twitter)">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
+          <div class="flex items-center justify-center">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="p-6 bg-white/5 rounded-2xl border border-white/10 text-center">
+                <span class="text-3xl font-bold text-[#FFC162]">100%</span>
+                <p class="text-[10px] uppercase tracking-widest mt-2">UK Compliant</p>
+              </div>
+              <div class="p-6 bg-white/5 rounded-2xl border border-white/10 text-center">
+                <span class="text-3xl font-bold text-[#FFC162]">Zero</span>
+                <p class="text-[10px] uppercase tracking-widest mt-2">Outsourced Code</p>
+              </div>
+              <div class="p-6 bg-white/5 rounded-2xl border border-white/10 text-center col-span-2">
+                <span class="text-3xl font-bold text-[#FFC162]">Founder</span>
+                <p class="text-[10px] uppercase tracking-widest mt-2">Direct Collaboration</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="py-24 text-center px-4">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">Experience the Trevidia Advantage</h2>
+      <p class="text-gray-600 mb-10 max-w-2xl mx-auto">
+        Whether you are a scaling startup or an established enterprise, our team is ready to audit your current trajectory and provide a roadmap for digital maturity.
+      </p>
+      <NuxtLink to="https://calendly.com/your-link" class="inline-block px-12 py-4 bg-[#FFC162] text-[#1a1a1a] font-bold rounded-xl shadow-lg hover:bg-black hover:text-white transition-all">
+        Book a Strategy Session
+      </NuxtLink>
     </section>
   </div>
 </template>
 
-<style scoped>
-</style>
+<script setup>
+const pillars = [
+  {
+    title: "Technical Integrity",
+    // SVG path for a code bracket
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" /></svg>`,
+    desc: "We prioritize clean, maintainable, and scalable architecture. We don't build for today; we build for where your company will be in five years."
+  },
+  {
+    title: "Operational Speed",
+    // SVG path for a bolt
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" /></svg>`,
+    desc: "In the UK market, speed is a competitive advantage. Our agile methodology ensures we ship high-quality updates in weeks, not months."
+  },
+  {
+    title: "User-Centric Design",
+    // SVG path for a user check
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>`,
+    desc: "If the user can't find the value, the tech has failed. Every feature we develop is tested for cognitive load and intuitive flow."
+  },
+  {
+    title: "Strategic Authority",
+    // SVG path for a shield
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15L15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" /></svg>`,
+    desc: "As SaaS founders ourselves, we provide advice rooted in the reality of managing a global product. We have skin in the game."
+  }
+]
+</script>

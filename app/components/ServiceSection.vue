@@ -1,70 +1,69 @@
 <script setup lang="ts">
 const services = [
   {
-    svg: `
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M3.59844 3.59961C3.28018 3.59961 2.97495 3.72604 2.74991 3.95108C2.52487 4.17612 2.39844 4.48135 2.39844 4.79961C2.39844 5.11787 2.52487 5.42309 2.74991 5.64814C2.97495 5.87318 3.28018 5.99961 3.59844 5.99961V15.5996C3.59844 16.2361 3.85129 16.8466 4.30138 17.2967C4.75147 17.7468 5.36192 17.9996 5.99844 17.9996H9.10164L7.55004 19.5512C7.43543 19.6619 7.34401 19.7943 7.28112 19.9407C7.21823 20.0871 7.18512 20.2446 7.18374 20.4039C7.18235 20.5633 7.21271 20.7213 7.27305 20.8688C7.33339 21.0162 7.42249 21.1502 7.53516 21.2629C7.64783 21.3756 7.78182 21.4647 7.92929 21.525C8.07677 21.5853 8.23478 21.6157 8.39412 21.6143C8.55345 21.6129 8.71092 21.5798 8.85732 21.5169C9.00373 21.454 9.13614 21.3626 9.24684 21.248L11.9984 18.4964L14.75 21.248C14.9764 21.4666 15.2795 21.5876 15.5941 21.5848C15.9088 21.5821 16.2097 21.4559 16.4322 21.2334C16.6547 21.0109 16.7809 20.7099 16.7836 20.3953C16.7864 20.0807 16.6654 19.7775 16.4468 19.5512L14.8952 17.9996H17.9984C18.635 17.9996 19.2454 17.7468 19.6955 17.2967C20.1456 16.8466 20.3984 16.2361 20.3984 15.5996V5.99961C20.7167 5.99961 21.0219 5.87318 21.247 5.64814C21.472 5.42309 21.5984 5.11787 21.5984 4.79961C21.5984 4.48135 21.472 4.17612 21.247 3.95108C21.0219 3.72604 20.7167 3.59961 20.3984 3.59961H3.59844ZM17.6468 9.24801C17.8654 9.02169 17.9864 8.71856 17.9836 8.40393C17.9809 8.08929 17.8547 7.78832 17.6322 7.56583C17.4097 7.34334 17.1088 7.21713 16.7941 7.2144C16.4795 7.21167 16.1764 7.33262 15.95 7.55121L11.9984 11.5028L10.4468 9.95121C10.2218 9.72624 9.91663 9.59987 9.59844 9.59987C9.28024 9.59987 8.97507 9.72624 8.75004 9.95121L6.35004 12.3512C6.23543 12.4619 6.14401 12.5943 6.08112 12.7407C6.01823 12.8871 5.98512 13.0446 5.98374 13.2039C5.98235 13.3633 6.01271 13.5213 6.07305 13.6688C6.13339 13.8162 6.22249 13.9502 6.33516 14.0629C6.44783 14.1756 6.58182 14.2647 6.72929 14.325C6.87677 14.3853 7.03478 14.4157 7.19412 14.4143C7.35345 14.4129 7.51092 14.3798 7.65732 14.3169C7.80373 14.254 7.93614 14.1626 8.04684 14.048L9.59844 12.4964L11.15 14.048C11.3751 14.273 11.6802 14.3994 11.9984 14.3994C12.3166 14.3994 12.6218 14.273 12.8468 14.048L17.6468 9.24801V9.24801Z" fill="white"/>
-</svg>
-`,
-    title: "Business Strategy",
-    body: "Strategic planning, market analysis, and growth optimization to help our business reach its full potential",
+    title: "Strategic Business Growth",
+    body: "We don't just give advice; we build blueprints for expansion. Our market analysts and strategy consultants work alongside your leadership to identify untapped revenue streams and optimize your market position within the UK and global landscapes.",
     values: [
-        "Market Research", "Competitive Analysis", "Growth Planning"
+      "In-depth Competitive Benchmarking",
+      "Revenue Stream Diversification",
+      "Scalable Business Model Design",
+      "Investor Readiness & Pitch Deck Strategy",
+      "Market Entry & Expansion Logistics"
     ]
   },
   {
-    svg: `
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M22.5073 10.5073C21.7968 10.5073 21.201 11.0065 21.0513 11.6724H17.0252L15.4901 9.02855L18.6657 5.85305C18.8943 5.98978 19.1564 6.06281 19.4298 6.06281C19.8285 6.06281 20.2033 5.90752 20.4852 5.62561C20.7672 5.34366 20.9224 4.96884 20.9224 4.57013C20.9224 4.17145 20.7671 3.79664 20.4852 3.51473L20.4852 3.51469C20.2033 3.23278 19.8285 3.07748 19.4298 3.07748C19.0311 3.07748 18.6562 3.23273 18.3743 3.51469C17.8819 4.00716 17.8063 4.76095 18.1472 5.33386L15.109 8.37206L14.6112 7.51462H12.3573V2.94169C13.0083 2.78109 13.4926 2.19248 13.4926 1.49259C13.4926 0.669563 12.823 0 12 0C11.1769 0 10.5073 0.669563 10.5073 1.49264C10.5073 2.18573 10.9821 2.76984 11.6235 2.93709V7.51462H9.38878L8.89092 8.37211L5.85305 5.33423C5.98978 5.10562 6.06281 4.84345 6.06281 4.57013C6.06281 4.17145 5.90752 3.79664 5.62561 3.51469C5.34366 3.23273 4.96884 3.07748 4.57013 3.07748C4.17145 3.07748 3.79664 3.23278 3.51473 3.51469L3.51469 3.51473C3.23278 3.79664 3.07748 4.17145 3.07748 4.57013C3.07748 4.96884 3.23273 5.34366 3.51469 5.62556C3.79664 5.90752 4.17145 6.06277 4.57013 6.06277C4.84345 6.06277 5.10553 5.98973 5.33423 5.853L8.50983 9.02855L6.97472 11.6724H2.94863C2.79891 11.0064 2.20312 10.5073 1.49259 10.5073C0.669562 10.5073 0 11.1769 0 11.9999C0 12.8229 0.669563 13.4925 1.49264 13.4925C2.17486 13.4925 2.75123 13.0323 2.92866 12.4061H7.00312L8.49886 14.9821L5.33386 18.1471C4.76095 17.8062 4.0072 17.8817 3.51473 18.3742C3.23278 18.6562 3.07753 19.031 3.07753 19.4297C3.07753 19.8284 3.23283 20.2032 3.51473 20.4851C3.79669 20.767 4.1715 20.9223 4.57017 20.9223C4.96889 20.9223 5.3437 20.767 5.62561 20.4851C5.90756 20.2031 6.06281 19.8283 6.06281 19.4296C6.06281 19.1563 5.98978 18.8942 5.85305 18.6655L8.87995 15.6386L9.38878 16.5149H11.6235V21.0627C10.9821 21.2299 10.5073 21.8141 10.5073 22.5071C10.5073 23.3302 11.1769 23.9998 12 23.9998C12.823 23.9998 13.4926 23.3302 13.4926 22.5071C13.4926 21.8072 13.0083 21.2186 12.3573 21.058V16.5149H14.6112L15.12 15.6386L18.1473 18.666C17.8063 19.2388 17.8819 19.9927 18.3743 20.4851C18.6563 20.767 19.0311 20.9223 19.4298 20.9223C19.8285 20.9223 20.2033 20.767 20.4852 20.4851C20.7672 20.2031 20.9224 19.8283 20.9224 19.4296C20.9224 19.0309 20.7672 18.6561 20.4852 18.3742C19.9928 17.8817 19.239 17.8062 18.6661 18.1471L15.5011 14.9821L16.9969 12.4061H21.0713C21.2488 13.0322 21.8251 13.4925 22.5074 13.4925C23.3304 13.4925 24 12.8229 24 11.9999C24 11.1768 23.3303 10.5073 22.5073 10.5073ZM18.8932 4.03355C19.0365 3.89016 19.227 3.81122 19.4298 3.81122C19.6325 3.81122 19.8231 3.89016 19.9665 4.0335L19.9665 4.03355C20.1098 4.17684 20.1888 4.36744 20.1888 4.57013C20.1888 4.77286 20.1098 4.96345 19.9665 5.10684C19.8231 5.25019 19.6326 5.32913 19.4298 5.32913C19.2271 5.32913 19.0365 5.25019 18.8932 5.10684C18.5972 4.81087 18.5972 4.32942 18.8932 4.03355ZM5.10675 5.10675C4.96341 5.25014 4.77286 5.32908 4.57008 5.32908C4.36739 5.32908 4.1768 5.25014 4.0335 5.10675C3.89011 4.96341 3.81117 4.77286 3.81117 4.57008C3.81117 4.36739 3.89011 4.1768 4.03345 4.0335L4.0335 4.03345C4.1768 3.89011 4.36739 3.81117 4.57008 3.81117C4.77281 3.81117 4.96341 3.89011 5.1068 4.0335C5.25014 4.1768 5.32908 4.36739 5.32908 4.57008C5.32908 4.77286 5.25014 4.96345 5.10675 5.10675ZM1.49264 12.7589C1.07419 12.7589 0.733734 12.4184 0.733734 12C0.733734 11.5815 1.07419 11.241 1.49264 11.241C1.91109 11.241 2.25155 11.5815 2.25155 12C2.25155 12.4184 1.91109 12.7589 1.49264 12.7589ZM5.10675 19.9664C4.96341 20.1098 4.77286 20.1887 4.57008 20.1887C4.36739 20.1887 4.1768 20.1098 4.03345 19.9664C3.89011 19.823 3.81117 19.6325 3.81117 19.4297C3.81117 19.227 3.89011 19.0364 4.0335 18.8931C4.18144 18.7451 4.37578 18.6712 4.57008 18.6712C4.76447 18.6712 4.95877 18.7452 5.10675 18.8931C5.25014 19.0364 5.32908 19.227 5.32908 19.4297C5.32908 19.6324 5.25014 19.8231 5.10675 19.9664ZM18.8932 18.8931C19.1891 18.5972 19.6706 18.5972 19.9664 18.8931C20.1098 19.0365 20.1887 19.227 20.1887 19.4298C20.1887 19.6325 20.1098 19.8231 19.9664 19.9665C19.8231 20.1097 19.6325 20.1887 19.4298 20.1887C19.227 20.1887 19.0365 20.1098 18.8931 19.9664C18.5973 19.6705 18.5972 19.1891 18.8932 18.8931ZM11.2411 1.49264C11.2411 1.07419 11.5815 0.733734 12 0.733734C12.4185 0.733734 12.7589 1.07419 12.7589 1.49264C12.7589 1.91109 12.4185 2.25155 12 2.25155C11.5815 2.25155 11.2411 1.91105 11.2411 1.49264ZM12.7589 22.5073C12.7589 22.9258 12.4184 23.2662 12 23.2662C11.5815 23.2662 11.241 22.9258 11.241 22.5073C11.241 22.0888 11.5815 21.7484 12 21.7484C12.4184 21.7484 12.7589 22.0888 12.7589 22.5073ZM14.1887 15.7813H9.81127L7.62436 12.0148L9.81127 8.24831H14.1887L16.3756 12.0148L14.1887 15.7813ZM22.5073 12.7589C22.0889 12.7589 21.7484 12.4184 21.7484 12C21.7484 11.5815 22.0889 11.241 22.5073 11.241C22.9258 11.241 23.2663 11.5815 23.2663 12C23.2663 12.4184 22.9258 12.7589 22.5073 12.7589Z" fill="white"/>
-    </svg>
-    `,
-    title: "Custom Development",
-    body: "Tailored software solutions, web applications, and mobile apps built to meet your specific requirements",
+    title: "Custom Software & SaaS",
+    body: "Generic tools often hinder more than they help. Trevidia develops bespoke software solutions—ranging from proprietary CRM systems to complex SaaS platforms—designed specifically to integrate with your existing business logic and enhance user experience.",
     values: [
-        "Web Applications", "Mobile Apps", "API Integration"
+      "Full-Stack Web Application Development",
+      "High-Performance Mobile Solutions",
+      "Legacy System Modernization",
+      "Secure API & Third-Party Integrations",
+      "UI/UX Design for Conversion"
     ]
   },
   {
-    svg: `
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M6.60073 19.1998C5.52616 19.1984 4.49301 18.7851 3.71386 18.0451C2.93471 17.3051 2.46884 16.2946 2.41211 15.2215C2.35538 14.1484 2.71211 13.0944 3.40889 12.2764C4.10567 11.4583 5.0895 10.9385 6.15793 10.8238C5.84333 9.59005 6.03172 8.28187 6.68164 7.18704C7.33157 6.0922 8.3898 5.30039 9.62353 4.98579C10.8573 4.67119 12.1654 4.85957 13.2603 5.5095C14.3551 6.15942 15.1469 7.21765 15.4615 8.45139C16.1953 8.34922 16.9422 8.39912 17.6558 8.59798C18.3694 8.79685 19.0345 9.14042 19.6097 9.60732C20.1848 10.0742 20.6577 10.6545 20.999 11.312C21.3403 11.9695 21.5427 12.6902 21.5935 13.4293C21.6443 14.1684 21.5426 14.91 21.2945 15.608C21.0464 16.3061 20.6574 16.9456 20.1516 17.4869C19.6457 18.0281 19.034 18.4595 18.3543 18.7542C17.6746 19.0489 16.9415 19.2005 16.2007 19.1998H6.60073Z" fill="white"/>
-    </svg>`,
-    title: "Digital Transformation",
-    body: "Modernize your operations with cloud solutions, automation, and digital process optimization",
+    title: "Enterprise Transformation",
+    body: "The digital shift is more than just moving to the cloud. It’s about cultural and operational change. We assist organizations in migrating from manual, error-prone processes to automated, high-visibility digital workflows that reduce overhead and increase speed-to-market.",
     values: [
-        "Cloud Migration", "Process Automation", "System Integration"
+      "Cloud Infrastructure & AWS/Azure Migration",
+      "AI-Driven Process Automation (RPA)",
+      "Big Data Analytics & Business Intelligence",
+      "Cybersecurity Framework Implementation",
+      "Continuous Dev Ops & Agile Training"
     ]
-  },
+  }
 ]
 </script>
 
 <template>
-<section id="service" class="section">
-  <div class="max-w-[747px] mx-auto text-center mb-13">
-    <h2 class="font-bold text-[36px] leading-[119%] tracking-[0%] mb-2">Our Core Services</h2>
-    <p class="text-[20px] font-medium text-[#444444] leading-[148%] tracking-[0%]">Our work focuses on solving real problems with clean, reliable, and scalable solutions.</p>
-  </div>
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-12 gap-y-8">
-    <div v-for="service in services" :key="service.title" class="rounded-xl bg-[#FFF9F1] p-6">
-      <div class="rounded-lg bg-[#FFC162] text-white flex items-center size-[44px] justify-center" v-html="service.svg"></div>
-      <h3 class="mt-6 mb-4 text-[24px] font-semibold leading-[119%] tracking-[0%]">{{service.title}}</h3>
-      <p class="mb-4 text-sm text-[#444444] leading-[144%] tracking-[0%]">{{service.body}}</p>
-      <ul class="space-y-2 text-xs leading-[144%] tracking-[0%]">
-        <li v-for="value in service.values" :key="value" class="flex gap-x-3 items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4 text-[#05B414]">
-            <path fill-rule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clip-rule="evenodd" />
-          </svg>
-          <span>
-            {{value}}
-          </span>
-        </li>
-      </ul>
+  <section id="service" class="py-24 px-4 md:px-10">
+    <div class="max-w-[900px] mx-auto text-center mb-16">
+      <h2 class="font-bold text-[42px] leading-tight mb-6">Expert Solutions for Modern Challenges</h2>
+      <p class="text-[20px] text-[#444444] mb-8">
+        Trevidia provides a holistic suite of services designed to address the most pressing obstacles facing businesses today. From the initial spark of an idea to the complex realities of large-scale digital deployment, we are your technical and strategic partners.
+      </p>
+      <div class="text-left bg-gray-50 p-8 rounded-2xl border-l-4 border-[#FFC162]">
+        <p class="text-sm italic text-[#666666]">
+          <strong>SEO Note:</strong> Our approach to property and business management incorporates the latest in <strong>UK Building Safety Compliance</strong>, <strong>Enterprise Resource Planning (ERP)</strong>, and <strong>PropTech innovation</strong>. We ensure your assets are not just maintained, but optimized for maximum yield.
+        </p>
+      </div>
     </div>
-  </div>
 
-</section>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <div v-for="service in services" :key="service.title" class="rounded-2xl bg-[#FFF9F1] p-8 shadow-sm hover:shadow-md transition-shadow">
+        <h3 class="mb-5 text-[26px] font-bold text-[#1a1a1a]">{{service.title}}</h3>
+        <p class="mb-6 text-[#444444] leading-relaxed">{{service.body}}</p>
+        <hr class="border-[#FFC162]/30 mb-6" />
+        <ul class="space-y-4">
+          <li v-for="value in service.values" :key="value" class="flex gap-x-3 items-start text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-5 text-[#05B414] shrink-0">
+              <path fill-rule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z" clip-rule="evenodd" />
+            </svg>
+            <span class="font-medium text-[#222222]">{{value}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </template>
-
-<style scoped>
-
-</style>
