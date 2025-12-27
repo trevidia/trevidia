@@ -142,55 +142,90 @@ const siteLinks = [
 </script>
 
 <template>
-  <footer class="py-9 px-4 md:px-10 lg:px-16 bg-[#494949] text-[#D1D5DB]">
-    <div>
-      <div class="space-y-4">
-        <img src="/assets/img/logo-transparent-horizontal-darkmode.png" alt="footer logo" class="w-[110px] h-[50px] object-contain"/>
-        <div class="space-y-1">
-          <p class="text-balance text-sm/6 text-white">
-            Trusted by startups and enterprises to build what's next
+  <footer class="py-16 px-4 md:px-10 lg:px-16 bg-[#2D2D2D] text-[#D1D5DB]" aria-labelledby="footer-heading">
+    <h2 id="footer-heading" class="sr-only">Footer</h2>
+    <div class="max-w-7xl mx-auto">
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 pb-12 border-b border-white/10 mb-12">
+        <div class="lg:col-span-8">
+          <h3 class="text-white font-bold text-xl mb-4">Our Consulting Philosophy: Authority Through Action</h3>
+          <p class="text-sm/6 text-balance mb-4">
+            At <strong>Trevidia Ltd (co.uk)</strong>, we operate as a high-authority UK-based tech consultancy.
+            We believe that the best advisors are those who actually build. Our expertise isn't just theoretical;
+            it is forged in the development of our own scalable platforms. We don't just advise on digital
+            transformation—we engineer it from the ground up to turn complex business needs into simple,
+            enterprise-grade solutions.
           </p>
-          <p class="text-balance text-sm/6 hover:underline">
-            <NuxtLink to="mailto:contact@trevidia.co.uk">
-              contact@trevidia.co.uk
+          <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/5 rounded-lg border border-white/10">
+            <span class="text-xs">Looking for our simple invoicing and billing platform?</span>
+            <NuxtLink to="https://trevidia.com" class="text-[#FFC162] font-bold text-xs hover:underline" target="_blank">
+              Visit Trevidia.com →
             </NuxtLink>
-          </p>
-          <p class="text-balance text-sm/6 hover:underline">
-            <NuxtLink to="tel:+442080400214">
-              +44 208-0400-214
-            </NuxtLink>
-          </p>
-          <p class="text-balance text-sm/6 hover:underline">
-            <NuxtLink to="tel:+13692086805">
-              +1(369)208-6805
-            </NuxtLink>
-          </p>
-          <p class="text-balance text-sm/6">
-            27 Old Gloucester Street, Greater London, United Kingdom, WNCX 3AX
+          </div>
+        </div>
+        <div class="lg:col-span-4 bg-[#363636] p-6 rounded-2xl border border-white/5">
+          <h4 class="text-white font-bold mb-2 text-sm">The Trevidia Story</h4>
+          <p class="text-xs/5 text-gray-400">
+            Our flagship invoicing tool, Trevidia.com, is living proof of our ability to deliver
+            simple, scalable digital solutions. We use the same technical rigour required for
+            global SaaS products to solve the bespoke challenges of our consulting clients.
           </p>
         </div>
-        <div class="flex gap-x-6 items-center">
-          <NuxtLink v-for="link in socialLinks" :to="link.href" :key="link.title" rel="noopener noreferrer nofollow">
-            <span class="social-link-label">{{link.title}}</span>
-            <span v-html="link.icon"></span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-4 space-y-6">
+          <NuxtLink to="/">
+            <img src="/assets/img/logo-transparent-horizontal-darkmode.png" alt="Trevidia Logo" class="w-[140px] h-auto object-contain"/>
           </NuxtLink>
+
+          <div class="space-y-4">
+            <address class="not-italic space-y-2 text-sm">
+              <p class="flex items-center gap-3">
+                <span class="text-[#FFC162] font-semibold uppercase text-[10px] tracking-widest">Email</span>
+                <NuxtLink to="mailto:contact@trevidia.com" class="hover:text-white hover:underline">contact@trevidia.com</NuxtLink>
+              </p>
+              <p class="flex items-center gap-3">
+                <span class="text-[#FFC162] font-semibold uppercase text-[10px] tracking-widest">Phone</span>
+                <NuxtLink to="tel:+442080400214" class="hover:text-white">+44 208-0400-214</NuxtLink>
+              </p>
+              <p class="pt-2 leading-relaxed opacity-80">
+                27 Old Gloucester Street, <br />
+                Greater London, United Kingdom, WC1N 3AX
+              </p>
+            </address>
+          </div>
+
+          <div class="flex gap-x-5 items-center">
+            <NuxtLink v-for="link in socialLinks" :to="link.href" :key="link.title" target="_blank" rel="noopener noreferrer nofollow" :aria-label="'Follow Trevidia on ' + link.title">
+              <span class="sr-only">{{link.title}}</span>
+              <span v-html="link.icon" class="transition-all hover:scale-110 block text-gray-400 hover:text-white"></span>
+            </NuxtLink>
+          </div>
+        </div>
+
+        <div class="lg:col-span-8 grid grid-cols-2 md:grid-cols-3 gap-8 text-sm">
+          <div v-for="group in siteLinks" :key="group.category">
+            <h3 class="font-bold uppercase tracking-wider text-white border-b border-[#FFC162] pb-2 inline-block mb-6">
+              {{group.category}}
+            </h3>
+            <ul class="space-y-3">
+              <li v-for="link in group.links" :key="link.title">
+                <NuxtLink :to="link.to" class="hover:text-[#FFC162] transition-colors inline-block">
+                  {{link.title}}
+                </NuxtLink>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16 w-full text-sm/6">
-        <div v-for="group in siteLinks" :key="group.category">
-          <h3 class="font-semibold capitalize text-white">{{group.category}}</h3>
-          <ul class="space-y-4 mt-6">
-            <li v-for="link in group.links" class="capitalize">
-              <NuxtLink :to="link.to">
-                {{link.title}}
-              </NuxtLink>
-            </li>
-          </ul>
+
+      <div class="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] text-gray-500 uppercase tracking-widest">
+        <p>&copy; {{ new Date().getFullYear() }} Trevidia Ltd. Registered in England & Wales. Company No. 16571063</p>
+        <div class="flex gap-6">
+          <NuxtLink to="/privacy-policy" class="hover:text-white">Privacy Policy</NuxtLink>
+          <NuxtLink to="/terms-of-service" class="hover:text-white">Terms of Service</NuxtLink>
         </div>
-      </div>
-      <div></div>
-      <div class="mt-16 sm:mt-20 pt-8 border-t border-white/10">
-        &copy; {{ new Date().getFullYear()}} Trevidia Ltd, All rights reserved
       </div>
     </div>
   </footer>

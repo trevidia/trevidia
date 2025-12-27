@@ -1,2 +1,18 @@
-User-Agent: *
-Disallow:
+# https://www.trevidia.co.uk robots.txt
+# Optimized for Nuxt/Vue SEO
+
+User-agent: *
+Allow: /
+Allow: /assets/img/
+
+# Block crawlers from seeing internal system files
+Disallow: /_nuxt/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /temp/
+
+# Tell Google where your sitemap is located
+Sitemap: https://www.trevidia.co.uk/sitemap.xml
+
+# Crawl-delay for smaller bots to prevent server load
+Crawl-delay: 10

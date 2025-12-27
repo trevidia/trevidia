@@ -2,6 +2,12 @@
 import NavBar from "../components/NavBar.vue";
 import Footer from "../components/Footer.vue";
 const isProd = !import.meta.dev
+const route = useRoute()
+
+useHead({
+  meta: [{property: 'og:title', content: `${route.meta.title} - Trevidia`}]
+})
+
 </script>
 
 <template>
