@@ -7,7 +7,6 @@ import TrustBar from "../components/TrustBar.vue";
 import IndustryExpertise from "../components/IndustryExpertise.vue";
 import FaqSection from "../components/FaqSection.vue";
 import CaseStudies from "../components/CaseStudies.vue";
-import {definePageMeta} from "../../.nuxt/imports";
 definePageMeta(({
   title: "Consulting & Web Development Company"
 }))
