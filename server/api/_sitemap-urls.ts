@@ -10,10 +10,10 @@ export default defineEventHandler(async (event) => {
     const technologies = await queryCollection(event, 'technologies').all()
 
     dynamicRoutes = [
-      ...blogPosts.map((post: any) => ({ loc: post.path ? post.path : `/${post.stem}` })),
-      ...services.map((s: any) => ({ loc: `/${s.stem}` })),
-      ...industries.map((i: any) => ({ loc: `/${i.stem}` })),
-      ...technologies.map((t: any) => ({ loc: `/${t.stem}` }))
+      ...blogPosts.map((post: {path?: string, stem: string}) => ({ loc: post.path ? post.path : `/${post.stem}` })),
+      ...services.map((s: {stem: string}) => ({ loc: `/${s.stem}` })),
+      ...industries.map((i: {stem: string}) => ({ loc: `/${i.stem}` })),
+      ...technologies.map((t: {stem: string}) => ({ loc: `/${t.stem}` }))
     ]
   } catch (error) {
     console.error('Sitemap API query error', error)
