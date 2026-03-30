@@ -1,0 +1,24 @@
+{
+  "title": "UI / UX Design",
+  "description": "User-centric design that looks beautiful and functions intuitively, driving engagement and conversion.",
+  "image": "/images/services/ui-ux-design.jpg",
+  "benefits": [
+    "Accelerated UI / UX Design timelines",
+    "Scalable, future-proof architecture",
+    "Dedicated ongoing support"
+  ],
+  "features": [
+    {
+      "title": "Strategic Planning",
+      "description": "Mapping out the best approach before writing a single line of code."
+    },
+    {
+      "title": "Agile Execution",
+      "description": "Iterative development that keeps you in the loop and adapts to change."
+    },
+    {
+      "title": "Quality Assurance",
+      "description": "Rigorous testing protocols to ensure flawless deployment."
+    }
+  ]
+}

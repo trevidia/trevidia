@@ -1,0 +1,24 @@
+{
+  "title": "E-commerce Retail",
+  "description": "High-conversion, scalable storefronts and inventory management systems for modern retail.",
+  "image": "/images/industries/ecommerce-retail.jpg",
+  "benefits": [
+    "Accelerated E-commerce Retail timelines",
+    "Scalable, future-proof architecture",
+    "Dedicated ongoing support"
+  ],
+  "features": [
+    {
+      "title": "Strategic Planning",
+      "description": "Mapping out the best approach before writing a single line of code."
+    },
+    {
+      "title": "Agile Execution",
+      "description": "Iterative development that keeps you in the loop and adapts to change."
+    },
+    {
+      "title": "Quality Assurance",
+      "description": "Rigorous testing protocols to ensure flawless deployment."
+    }
+  ]
+}

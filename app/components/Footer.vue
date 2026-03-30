@@ -50,92 +50,35 @@ const siteLinks = [
   {
     category: "company",
     links: [
-      {
-        to: "/about-us",
-        title: "About us"
-      },
-      {
-        to: "/team",
-        title: "Our Team"
-      },
-      {
-        to: "/contact",
-        title: "Contact us"
-      },
-      {
-        to: "/privacy-policy",
-        title: "Privacy policy"
-      },
-      {
-        to: "/terms-of-service",
-        title: "Terms of Service"
-      },
+      { to: "/about-us", title: "About us" },
+      { to: "/team", title: "Our Team" },
+      { to: "/contact", title: "Contact us" },
+      { to: "/privacy-policy", title: "Privacy policy" },
+      { to: "/terms-of-service", title: "Terms of Service" },
     ]
   },
   {
     category: "resources",
     links: [
-      {
-        to: "/industries",
-        title: "Industries"
-      },
-      {
-        to: "/technologies",
-        title: "Technologies"
-      },
-      {
-        to: "/blog",
-        title: "Blog"
-      },
-      {
-        to: "/portfolio",
-        title: "Portfolio"
-      },
+      { to: "/industries", title: "Industries" },
+      { to: "/technologies", title: "Technologies" },
+      { to: "/blog", title: "Blog" },
+      { to: "/portfolio", title: "Portfolio" },
     ]
   },
   {
     category: "services",
     links: [
-      {
-        to: "/",
-        title: "Web development"
-      },
-      {
-        to: "/",
-        title: "Ai Powered Solutions"
-      },
-      {
-        to: "/",
-        title: "Software development"
-      },
-      {
-        to: "/",
-        title: "Automation and integration"
-      },
-      {
-        to: "/",
-        title: "UI / UX Design"
-      },
-      {
-        to: "/",
-        title: "Saas Design"
-      },
-      {
-        to: "/",
-        title: "Saas Development"
-      },
-      {
-        to: "/",
-        title: "Mobile App Development"
-      },
-      {
-        to: "/",
-        title: "Maintenance and Support"
-      },
-      {
-        to: "/",
-        title: "Payment integration"
-      },
+      { to: "/services/web-development", title: "Web development" },
+      { to: "/services/ai-powered-solutions", title: "Ai Powered Solutions" },
+      { to: "/services/software-development", title: "Software development" },
+      { to: "/services/automation-and-integration", title: "Automation & integration" },
+      { to: "/services/ui-ux-design", title: "UI / UX Design" },
+      { to: "/services/saas-design", title: "Saas Design" },
+      { to: "/services/saas-development", title: "Saas Development" },
+      { to: "/services/mobile-app-development", title: "Mobile App Development" },
+      { to: "/services/maintenance-and-support", title: "Maintenance & Support" },
+      { to: "/services/payment-integration", title: "Payment integration" },
     ]
   },
 ]
