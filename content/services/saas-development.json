@@ -1,0 +1,24 @@
+{
+  "title": "SaaS Development",
+  "description": "End-to-end development of scalable, secure SaaS platforms capable of handling thousands of concurrent users.",
+  "image": "/images/services/saas-development.jpg",
+  "benefits": [
+    "Accelerated SaaS Development timelines",
+    "Scalable, future-proof architecture",
+    "Dedicated ongoing support"
+  ],
+  "features": [
+    {
+      "title": "Strategic Planning",
+      "description": "Mapping out the best approach before writing a single line of code."
+    },
+    {
+      "title": "Agile Execution",
+      "description": "Iterative development that keeps you in the loop and adapts to change."
+    },
+    {
+      "title": "Quality Assurance",
+      "description": "Rigorous testing protocols to ensure flawless deployment."
+    }
+  ]
+}

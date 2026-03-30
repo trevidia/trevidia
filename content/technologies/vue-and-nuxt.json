@@ -1,0 +1,24 @@
+{
+  "title": "Vue.js & Nuxt",
+  "description": "Lightning-fast, reactive frontends using the modern Vue and Nuxt ecosystem.",
+  "image": "/images/technologies/vue-and-nuxt.jpg",
+  "benefits": [
+    "Accelerated Vue.js & Nuxt timelines",
+    "Scalable, future-proof architecture",
+    "Dedicated ongoing support"
+  ],
+  "features": [
+    {
+      "title": "Strategic Planning",
+      "description": "Mapping out the best approach before writing a single line of code."
+    },
+    {
+      "title": "Agile Execution",
+      "description": "Iterative development that keeps you in the loop and adapts to change."
+    },
+    {
+      "title": "Quality Assurance",
+      "description": "Rigorous testing protocols to ensure flawless deployment."
+    }
+  ]
+}
