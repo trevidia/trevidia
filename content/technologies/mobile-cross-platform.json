@@ -1,0 +1,24 @@
+{
+  "title": "Mobile Cross-Platform",
+  "description": "Unified mobile development utilizing React Native and Flutter for iOS and Android.",
+  "image": "/images/technologies/mobile-cross-platform.jpg",
+  "benefits": [
+    "Accelerated Mobile Cross-Platform timelines",
+    "Scalable, future-proof architecture",
+    "Dedicated ongoing support"
+  ],
+  "features": [
+    {
+      "title": "Strategic Planning",
+      "description": "Mapping out the best approach before writing a single line of code."
+    },
+    {
+      "title": "Agile Execution",
+      "description": "Iterative development that keeps you in the loop and adapts to change."
+    },
+    {
+      "title": "Quality Assurance",
+      "description": "Rigorous testing protocols to ensure flawless deployment."
+    }
+  ]
+}
