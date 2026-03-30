@@ -37,6 +37,13 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/scripts',
-    '@nuxt/test-utils'
-  ]
+    '@nuxt/test-utils',
+    '@nuxtjs/seo',
+    'nuxt-og-image'
+  ],
+  sitemap: {
+    sources: [
+      '/api/_sitemap-urls'
+    ]
+  }
 })
